@@ -4,7 +4,7 @@ import "google/protobuf/timestamp.proto";
 
 package event;
 
-option go_package = "github.com/Telegram-bot-for-register-on-events/shared-proto/pb/event";
+option go_package = "github.com/Telegram-bot-for-register-on-events/shared-proto/pb/event;event";
 
 service EventService {
   rpc GetEvents(GetEventsRequest) returns (GetEventsResponse);
